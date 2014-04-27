@@ -302,7 +302,6 @@ class Game:
         for parent in obj['parents']:
                 parents.append(parent)
                 objects[obj_name].parents = parents
-                print("PARENT ADDED: %s", parent)
         if obj['antiparents'] != [""]:
                     antiparents = []
         for antiparent in obj['antiparents']:
