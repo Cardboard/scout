@@ -1,0 +1,5 @@
+{
+    "rooms": ["bvbotbox", "bvgndhole", "bvhole", "bvladder", "bvleft", "bvright", "bvslide", "bvtop", "bvtopbox", "bvtube", "cageleft", "cageright", "cagetop"],
+    "start_room": "cageright",
+    "start_view": "mom"
+}

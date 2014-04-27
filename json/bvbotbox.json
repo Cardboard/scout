@@ -1,0 +1,383 @@
+{
+    "in": {
+        "id": 0,
+        "objects": {
+            "button1": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button1_off.png",
+                "image_on": "button1_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    380,
+                    226,
+                    64,
+                    62
+                ],
+                "rect_on": [
+                    387,
+                    231,
+                    55,
+                    57
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 377,
+                "y": 224
+            },
+            "button2": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button2_off.png",
+                "image_on": "button2_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    280,
+                    223,
+                    58,
+                    58
+                ],
+                "rect_on": [
+                    285,
+                    226,
+                    53,
+                    55
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 275,
+                "y": 219
+            },
+            "button3": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button3_off.png",
+                "image_on": "button3_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    162,
+                    219,
+                    66,
+                    63
+                ],
+                "rect_on": [
+                    159,
+                    217,
+                    69,
+                    65
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 158,
+                "y": 214
+            },
+            "button4": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button4_off.png",
+                "image_on": "button4_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    267,
+                    315,
+                    63,
+                    63
+                ],
+                "rect_on": [
+                    277,
+                    319,
+                    51,
+                    57
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 264,
+                "y": 313
+            },
+            "button5": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button5_off.png",
+                "image_on": "button5_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    281,
+                    130,
+                    58,
+                    61
+                ],
+                "rect_on": [
+                    283,
+                    134,
+                    58,
+                    60
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 277,
+                "y": 127
+            },
+            "button6": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button6_off.png",
+                "image_on": "button6_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    620,
+                    235,
+                    61,
+                    60
+                ],
+                "rect_on": [
+                    624,
+                    238,
+                    57,
+                    58
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 614,
+                "y": 229
+            },
+            "button7": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button7_off.png",
+                "image_on": "button7_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    501,
+                    235,
+                    58,
+                    54
+                ],
+                "rect_on": [
+                    503,
+                    235,
+                    56,
+                    55
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 494,
+                "y": 228
+            },
+            "button8": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button8_off.png",
+                "image_on": "button8_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    487,
+                    323,
+                    70,
+                    71
+                ],
+                "rect_on": [
+                    491,
+                    328,
+                    61,
+                    59
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 486,
+                "y": 322
+            },
+            "button9": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "button9_off.png",
+                "image_on": "button9_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    496,
+                    137,
+                    67,
+                    68
+                ],
+                "rect_on": [
+                    504,
+                    147,
+                    54,
+                    53
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 492,
+                "y": 134
+            }
+        }
+    },
+    "out": {
+        "id": 1,
+        "objects": {
+            
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvright",
+                    "view": "fence"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    195,
+                    41,
+                    468,
+                    281
+                ],
+                "rect_on": [
+                    194,
+                    42,
+                    460,
+                    284
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 410,
+                "y": 263
+            }
+        }
+    }
+}

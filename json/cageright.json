@@ -1,0 +1,93 @@
+{
+    "kitchen": {
+        "id": 1,
+        "objects": {}
+    },
+    "left": {
+        "id": 3,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "cageleft",
+                    "view": "max"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    41,
+                    201,
+                    415,
+                    231
+                ],
+                "rect_on": [
+                    43,
+                    203,
+                    412,
+                    223
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 49,
+                "y": 214
+            },
+            "ladder": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "cagetop",
+                    "view": "max"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    70,
+                    4,
+                    702,
+                    405
+                ],
+                "rect_on": [
+                    77,
+                    2,
+                    691,
+                    411
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 65,
+                "y": 5
+            }
+        }
+    },
+    "mom": {
+        "id": 2,
+        "objects": {}
+    },
+    "wall": {
+        "id": 0,
+        "objects": {}
+    }
+}

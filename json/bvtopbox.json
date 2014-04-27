@@ -1,0 +1,500 @@
+{
+    "in": {
+        "id": 0,
+        "objects": {
+            "1": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "1_off.png",
+                "image_on": "1_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    95,
+                    107,
+                    157,
+                    91
+                ],
+                "rect_on": [
+                    93,
+                    107,
+                    158,
+                    88
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 94,
+                "y": 107
+            },
+            "2": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "2_off.png",
+                "image_on": "2_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    103,
+                    298,
+                    153,
+                    78
+                ],
+                "rect_on": [
+                    104,
+                    300,
+                    151,
+                    71
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 101,
+                "y": 297
+            },
+            "3": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "3_off.png",
+                "image_on": "3_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    96,
+                    206,
+                    158,
+                    86
+                ],
+                "rect_on": [
+                    102,
+                    212,
+                    147,
+                    73
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 96,
+                "y": 206
+            },
+            "4": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "4_off.png",
+                "image_on": "4_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    298,
+                    194,
+                    134,
+                    86
+                ],
+                "rect_on": [
+                    299,
+                    199,
+                    125,
+                    74
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 299,
+                "y": 195
+            },
+            "5": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "5_off.png",
+                "image_on": "5_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    287,
+                    96,
+                    157,
+                    75
+                ],
+                "rect_on": [
+                    292,
+                    97,
+                    153,
+                    76
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 287,
+                "y": 96
+            },
+            "6": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "6_off.png",
+                "image_on": "6_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    504,
+                    97,
+                    142,
+                    80
+                ],
+                "rect_on": [
+                    507,
+                    99,
+                    140,
+                    78
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 504,
+                "y": 97
+            },
+            "7": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "7_off.png",
+                "image_on": "7_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    309,
+                    289,
+                    149,
+                    88
+                ],
+                "rect_on": [
+                    314,
+                    294,
+                    135,
+                    77
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 309,
+                "y": 288
+            },
+            "8": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "8_off.png",
+                "image_on": "8_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    481,
+                    287,
+                    187,
+                    86
+                ],
+                "rect_on": [
+                    481,
+                    286,
+                    188,
+                    91
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 481,
+                "y": 287
+            },
+            "9": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_7",
+                    "bvtopbox_in_8"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "9_off.png",
+                "image_on": "9_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    499,
+                    196,
+                    150,
+                    82
+                ],
+                "rect_on": [
+                    502,
+                    199,
+                    148,
+                    82
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 499,
+                "y": 196
+            }
+        }
+    },
+    "out": {
+        "id": 1,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvtop",
+                    "view": "fence"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    190,
+                    48,
+                    456,
+                    330
+                ],
+                "rect_on": [
+                    197,
+                    47,
+                    437,
+                    325
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 234,
+                "y": 100
+            },
+            "patches": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    88,
+                    281,
+                    253,
+                    239
+                ],
+                "rect_on": [
+                    84,
+                    276,
+                    245,
+                    231
+                ],
+                "reqs": [],
+                "response": "he vet",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 186,
+                "y": 377
+            }
+        }
+    }
+}

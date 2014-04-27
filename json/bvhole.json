@@ -1,0 +1,44 @@
+{
+    "out": {
+        "id": 0,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvright",
+                    "view": "lawn"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    8,
+                    5,
+                    790,
+                    570
+                ],
+                "rect_on": [
+                    4,
+                    1,
+                    791,
+                    571
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 255,
+                "y": 260
+            }
+        }
+    }
+}

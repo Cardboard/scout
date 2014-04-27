@@ -1,0 +1,384 @@
+{
+    "fence": {
+        "id": 0,
+        "objects": {
+            "hole": {
+                "activated": true,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvgndhole",
+                    "view": "in"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "hole_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    25,
+                    35,
+                    0,
+                    0
+                ],
+                "rect_on": [
+                    347,
+                    281,
+                    252,
+                    88
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 330,
+                "y": 277
+            },
+            "ladder": {
+                "activated": true,
+                "antiparents": [
+                    "bvbotbox_in_button2",
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button6",
+                    "bvbotbox_in_button9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvtop",
+                    "view": "wall"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "ladder_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    562,
+                    0,
+                    0,
+                    0
+                ],
+                "rect_on": [
+                    562,
+                    0,
+                    0,
+                    0
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 562,
+                "y": 0
+            },
+            "merlin": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    9,
+                    192,
+                    146,
+                    126
+                ],
+                "rect_on": [
+                    20,
+                    186,
+                    138,
+                    145
+                ],
+                "reqs": [],
+                "response": "Zzz...",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 14,
+                "y": 202
+            }
+        }
+    },
+    "patio": {
+        "id": 2,
+        "objects": {}
+    },
+    "right": {
+        "id": 1,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvright",
+                    "view": "lawn"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    337,
+                    55,
+                    357,
+                    347
+                ],
+                "rect_on": [
+                    335,
+                    53,
+                    346,
+                    341
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 526,
+                "y": 510
+            },
+            "hole": {
+                "activated": false,
+                "antiparents": [
+                    "bvtopbox_in_1",
+                    "bvtopbox_in_2",
+                    "bvtopbox_in_3",
+                    "bvtopbox_in_4",
+                    "bvtopbox_in_5",
+                    "bvtopbox_in_6",
+                    "bvtopbox_in_8",
+                    "bvtopbox_in_9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvgndhole",
+                    "view": "in"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "hole_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    88,
+                    342,
+                    0,
+                    0
+                ],
+                "rect_on": [
+                    88,
+                    342,
+                    141,
+                    155
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 76,
+                "y": 338
+            },
+            "ladder": {
+                "activated": true,
+                "antiparents": [
+                    "bvbotbox_in_button2",
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button6",
+                    "bvbotbox_in_button9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "ladder_on.png",
+                "info": false,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    44,
+                    7,
+                    0,
+                    0
+                ],
+                "rect_on": [
+                    44,
+                    7,
+                    0,
+                    0
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 30,
+                "y": 0
+            },
+            "tube": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvtube",
+                    "view": "south"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    438,
+                    213,
+                    193,
+                    188
+                ],
+                "rect_on": [
+                    446,
+                    228,
+                    188,
+                    180
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 421,
+                "y": 331
+            }
+        }
+    },
+    "wall": {
+        "id": 3,
+        "objects": {
+            "merlin": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    544,
+                    338,
+                    156,
+                    136
+                ],
+                "rect_on": [
+                    543,
+                    340,
+                    156,
+                    125
+                ],
+                "reqs": [],
+                "response": "Zzz...",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 546,
+                "y": 360
+            },
+            "nail": {
+                "activated": true,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": true,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "nail_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    122,
+                    429,
+                    0,
+                    0
+                ],
+                "rect_on": [
+                    121,
+                    424,
+                    53,
+                    62
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 105,
+                "y": 417
+            }
+        }
+    }
+}

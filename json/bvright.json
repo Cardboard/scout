@@ -1,0 +1,361 @@
+{
+    "fence": {
+        "id": 0,
+        "objects": {
+            "scooter": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    176,
+                    270,
+                    138,
+                    116
+                ],
+                "rect_on": [
+                    181,
+                    268,
+                    132,
+                    122
+                ],
+                "reqs": [],
+                "response": "lokibe?",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 228,
+                "y": 344
+            },
+            "slide": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvslide",
+                    "view": "forward"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    74,
+                    141,
+                    430,
+                    284
+                ],
+                "rect_on": [
+                    70,
+                    118,
+                    418,
+                    294
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 156,
+                "y": 191
+            }
+        }
+    },
+    "lawn": {
+        "id": 1,
+        "objects": {
+            "hole": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvhole",
+                    "view": "out"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    104,
+                    116,
+                    241,
+                    194
+                ],
+                "rect_on": [
+                    116,
+                    119,
+                    219,
+                    191
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 140,
+                "y": 275
+            },
+            "max": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    422,
+                    185,
+                    187,
+                    152
+                ],
+                "rect_on": [
+                    426,
+                    183,
+                    183,
+                    152
+                ],
+                "reqs": [],
+                "response": "he ivet",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 448,
+                "y": 219
+            }
+        }
+    },
+    "left": {
+        "id": 3,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvleft",
+                    "view": "wall"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    68,
+                    10,
+                    396,
+                    368
+                ],
+                "rect_on": [
+                    67,
+                    4,
+                    375,
+                    363
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 132,
+                "y": 479
+            },
+            "ladder": {
+                "activated": true,
+                "antiparents": [
+                    "bvbotbox_in_button2",
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button6",
+                    "bvbotbox_in_button9"
+                ],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvladder",
+                    "view": "up"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "ladder_on.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    369,
+                    0,
+                    1,
+                    0
+                ],
+                "rect_on": [
+                    405,
+                    1,
+                    315,
+                    325
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 369,
+                "y": 0
+            },
+            "tube": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvtube",
+                    "view": "north"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    168,
+                    210,
+                    190,
+                    109
+                ],
+                "rect_on": [
+                    358,
+                    319,
+                    -188,
+                    -118
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 155,
+                "y": 187
+            }
+        }
+    },
+    "patio": {
+        "id": 2,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvbotbox",
+                    "view": "in"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    144,
+                    180,
+                    389,
+                    186
+                ],
+                "rect_on": [
+                    147,
+                    167,
+                    377,
+                    207
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 219,
+                "y": 348
+            },
+            "stu": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    222,
+                    126,
+                    97,
+                    81
+                ],
+                "rect_on": [
+                    229,
+                    130,
+                    90,
+                    76
+                ],
+                "reqs": [],
+                "response": "he",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 225,
+                "y": 130
+            }
+        }
+    }
+}

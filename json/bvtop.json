@@ -1,0 +1,131 @@
+{
+    "fence": {
+        "id": 0,
+        "objects": {}
+    },
+    "lawn": {
+        "id": 1,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvladder",
+                    "view": "down"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    62,
+                    267,
+                    265,
+                    175
+                ],
+                "rect_on": [
+                    47,
+                    258,
+                    286,
+                    186
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 95,
+                "y": 314
+            }
+        }
+    },
+    "patio": {
+        "id": 2,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvtopbox",
+                    "view": "in"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    307,
+                    195,
+                    465,
+                    290
+                ],
+                "rect_on": [
+                    310,
+                    194,
+                    456,
+                    295
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 332,
+                "y": 214
+            },
+            "patches": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    558,
+                    346,
+                    166,
+                    134
+                ],
+                "rect_on": [
+                    557,
+                    342,
+                    172,
+                    139
+                ],
+                "reqs": [],
+                "response": "he vet",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 555,
+                "y": 335
+            }
+        }
+    },
+    "wall": {
+        "id": 3,
+        "objects": {}
+    }
+}

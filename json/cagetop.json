@@ -1,0 +1,206 @@
+{
+    "kitchen": {
+        "id": 1,
+        "objects": {
+            "ladder": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "cageright",
+                    "view": "kitchen"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    58,
+                    355,
+                    241,
+                    145
+                ],
+                "rect_on": [
+                    68,
+                    360,
+                    241,
+                    146
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 120,
+                "y": 389
+            }
+        }
+    },
+    "max": {
+        "id": 3,
+        "objects": {
+            "max": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    297,
+                    262,
+                    110,
+                    120
+                ],
+                "rect_on": [
+                    299,
+                    265,
+                    110,
+                    118
+                ],
+                "reqs": [],
+                "response": "he ivet!",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 303,
+                "y": 368
+            }
+        }
+    },
+    "mom": {
+        "id": 2,
+        "objects": {
+            "door": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "bvright",
+                    "view": "fence"
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 0,
+                "message": "",
+                "parents": ["cagetop_mom_latch"],
+                "rect_off": [
+                    0,
+                    136,
+                    164,
+                    244
+                ],
+                "rect_on": [
+                    1,
+                    139,
+                    148,
+                    240
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 1,
+                "y": 137
+            },
+            "latch": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": true,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "latch_off.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    0,
+                    131,
+                    162,
+                    249
+                ],
+                "rect_on": [
+                    0,
+                    136,
+                    162,
+                    245
+                ],
+                "reqs": [],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 0,
+                "y": 131
+            },
+            "mom": {
+                "activated": false,
+                "antiparents": [],
+                "antireqs": [],
+                "breaks": false,
+                "dies": false,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "empty.png",
+                "image_on": "empty.png",
+                "info": true,
+                "layer": 0,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    206,
+                    110,
+                    123,
+                    81
+                ],
+                "rect_on": [
+                    196,
+                    106,
+                    133,
+                    80
+                ],
+                "reqs": [],
+                "response": "he vet",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 294,
+                "y": 81
+            }
+        }
+    },
+    "wall": {
+        "id": 0,
+        "objects": {}
+    }
+}
