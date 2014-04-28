@@ -9,7 +9,7 @@ class View:
 		self.image = pygame.image.load(os.path.join(path, filename)).convert()
 		self.rect = self.image.get_rect()
 
-	def draw(self, screen, dt):
+	def draw(self, screen, dt, rooms):
 		queue = {'0':[],'1':[],'2':[],'3':[],'4':[],'5':[],'6':[],'7':[],'8':[],'9':[]}
 		# draw view first, then objects
 		screen.blit(self.image, self.rect)
@@ -29,7 +29,7 @@ class View:
 						#screen.blit(obj.image, (obj.x, obj.y))
 						queue[str(obj.layer)].append((obj.image, (obj.x, obj.y)))
 				elif obj.parents != None:
-					if self.check_parents(obj):
+					if self.check_parents(obj, rooms):
 						if obj.examine and obj.activated:
 							examining = [obj.image, obj.rect_on]
 						else:
@@ -47,7 +47,7 @@ class View:
 		if examining:
 			screen.blit(examining[0], examining[1])
 	
-	def click_check(self, mpos):
+	def click_check(self, mpos, rooms):
 		returned_object = None
 		possible_object = None
 		queue = {'0':None,'1':None,'2':None,'3':None,'4':None,'5':None,'6':None,'7':None,'8':None,'9':None}
@@ -64,7 +64,7 @@ class View:
 						elif possible_object == None:
 							possible_object = obj
 					elif obj.parents != None:
-						if self.check_parents(obj):
+						if self.check_parents(obj, rooms):
 							if obj.examine and obj.activated:
 								possible_object = obj
 							elif possible_object == None:
@@ -77,19 +77,32 @@ class View:
 			if queue[str(number)] != None:
 				returned_object = queue[str(number)]
 
+
 		return returned_object
 	
-	def check_parents(self, obj):
+	def check_parents(self, obj, rooms):
 		validates = True
 		if obj.parents == None and obj.antiparents == None:
 			return True
 		if obj.parents != None:
 			for parent in obj.parents:
-				if not(self.objects[parent].activated):
+				# get the room/view name so we can check activation status
+				# of objects in any room/view
+				props = parent.split('_')
+				room = props[0]
+				view = props[1]
+				if not(rooms[room][view]['view'].objects[parent].activated):
+				#if not(self.objects[parent].activated):
 					validates = False
 		if obj.antiparents != None:
+
 			# if any antiparents are activated, validation fails
 			for antiparent in obj.antiparents:
-				if self.objects[antiparent].activated:
+				# get the room/view name so we can check activation status
+				# of objects in any room/view
+				props = antiparent.split('_')
+				room = props[0]
+				view = props[1]
+				if rooms[room][view]['view'].objects[antiparent].activated:
 					validates = False
 		return validates

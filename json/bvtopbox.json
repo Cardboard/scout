@@ -4,17 +4,15 @@
         "objects": {
             "1": {
                 "activated": false,
-                "antiparents": [
-                    "bvtopbox_in_2",
+                "antiparents": [],
+                "antireqs": ["bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -51,16 +49,16 @@
             "2": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -97,16 +95,16 @@
             "3": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -143,16 +141,16 @@
             "4": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -189,16 +187,16 @@
             "5": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -235,16 +233,16 @@
             "6": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_7",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -281,16 +279,16 @@
             "7": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_8",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -327,16 +325,16 @@
             "8": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
-                    "bvtopbox_in_9"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_9"],
                 "breaks": false,
                 "dies": false,
                 "door": {
@@ -373,16 +371,16 @@
             "9": {
                 "activated": false,
                 "antiparents": [
-                    "bvtopbox_in_1",
+                    
+                ],
+                "antireqs": ["bvtopbox_in_1",
                     "bvtopbox_in_2",
                     "bvtopbox_in_3",
                     "bvtopbox_in_4",
                     "bvtopbox_in_5",
                     "bvtopbox_in_6",
                     "bvtopbox_in_7",
-                    "bvtopbox_in_8"
-                ],
-                "antireqs": [],
+                    "bvtopbox_in_8"],
                 "breaks": false,
                 "dies": false,
                 "door": {

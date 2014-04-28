@@ -45,7 +45,7 @@
             },
             "ladder": {
                 "activated": true,
-                "antiparents": ["bvbotbox_in_button2", "bvbotbox_in_button3", "bvbotbox_in_button4", "bvbotbox_in_button6", "bvbotbox_in_button9"],
+                "antiparents": ["bvbotbox_in_button1", "bvbotbox_in_button2", "bvbotbox_in_button5", "bvbotbox_in_button7", "bvbotbox_in_button8"],
                 "antireqs": [],
                 "breaks": false,
                 "dies": false,
@@ -54,17 +54,17 @@
                     "view": "up"
                 },
                 "examine": false,
-                "image_off": "empty.png",
+                "image_off": "ladder_on.png",
                 "image_on": "ladder_on.png",
                 "info": false,
                 "layer": 1,
                 "message": "",
-                "parents": [],
+                "parents": ["bvbotbox_in_button3", "bvbotbox_in_button4", "bvbotbox_in_button9", "bvbotbox_in_button6"],
                 "rect_off": [
-                    88,
-                    82,
-                    0,
-                    0
+                    61,
+                    72,
+                    272,
+                    364
                 ],
                 "rect_on": [
                     61,
@@ -92,8 +92,8 @@
                 "breaks": false,
                 "dies": false,
                 "door": {
-                    "room": "",
-                    "view": ""
+                    "room": "bvleft",
+                    "view": "patio"
                 },
                 "examine": false,
                 "image_off": "empty.png",

@@ -21,7 +21,7 @@ class Game:
         self.SFX = 'sfx'    
         self.BORDER = 50
         self.CUSTOMMOUSE = 0 # 0 for yes, 1 for no
-        self.DEBUG = True # debug/editor mode press E to enter editor 
+        self.DEBUG = False # debug/editor mode press E to enter editor 
 
         self.width = width
         self.height = height
@@ -91,7 +91,7 @@ class Game:
     
     def draw(self, mpos, dt):
         # draw view and view's objects 
-        self.rooms[self.cur_room][self.cur_view]['view'].draw(self.screen, dt)  
+        self.rooms[self.cur_room][self.cur_view]['view'].draw(self.screen, dt, self.rooms)  
         # draw message box at bottom of screen
         self.draw_message()
         # draw intro screen if applicable
@@ -118,7 +118,7 @@ class Game:
     def mouse_click(self, mpos):
         # CHECK IF CLICKED OBJECT
         # check if clicked object is alive (and parent activated if applicable)
-        obj = self.rooms[self.cur_room][self.cur_view]['view'].click_check(mpos)
+        obj = self.rooms[self.cur_room][self.cur_view]['view'].click_check(mpos, self.rooms)
         # clicked object is alive and parent activated if necessary
         if obj:
             obj, msg = self.req.req_check(obj,
@@ -298,12 +298,12 @@ class Game:
                 {'room': obj['door']['room'], 'view': obj['door']['view']}
         # setup object parents and antiparents
         if obj['parents'] != [""]:
-                    parents = []
+                parents = []
         for parent in obj['parents']:
                 parents.append(parent)
                 objects[obj_name].parents = parents
         if obj['antiparents'] != [""]:
-                    antiparents = []
+                antiparents = []
         for antiparent in obj['antiparents']:
                 antiparents.append(antiparent)
                 objects[obj_name].antiparents = antiparents

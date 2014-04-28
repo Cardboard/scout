@@ -27,7 +27,9 @@
                 "info": false,
                 "layer": 0,
                 "message": "",
-                "parents": [],
+                "parents": [
+                    "bvtopbox_in_7"
+                ],
                 "rect_off": [
                     25,
                     35,
@@ -51,11 +53,11 @@
             "ladder": {
                 "activated": true,
                 "antiparents": [
+                    "bvbotbox_in_button1",
                     "bvbotbox_in_button2",
-                    "bvbotbox_in_button3",
-                    "bvbotbox_in_button4",
-                    "bvbotbox_in_button6",
-                    "bvbotbox_in_button9"
+                    "bvbotbox_in_button5",
+                    "bvbotbox_in_button7",
+                    "bvbotbox_in_button8"
                 ],
                 "antireqs": [],
                 "breaks": false,
@@ -70,7 +72,12 @@
                 "info": false,
                 "layer": 0,
                 "message": "",
-                "parents": [],
+                "parents": [
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button9",
+                    "bvbotbox_in_button6"
+                ],
                 "rect_off": [
                     562,
                     0,
@@ -137,6 +144,7 @@
     "right": {
         "id": 1,
         "objects": {
+            
             "door": {
                 "activated": false,
                 "antiparents": [],
@@ -199,7 +207,9 @@
                 "info": false,
                 "layer": 0,
                 "message": "",
-                "parents": [],
+                "parents": [
+                    "bvtopbox_in_7"
+                ],
                 "rect_off": [
                     88,
                     342,
@@ -223,11 +233,11 @@
             "ladder": {
                 "activated": true,
                 "antiparents": [
+                    "bvbotbox_in_button1",
                     "bvbotbox_in_button2",
-                    "bvbotbox_in_button3",
-                    "bvbotbox_in_button4",
-                    "bvbotbox_in_button6",
-                    "bvbotbox_in_button9"
+                    "bvbotbox_in_button5",
+                    "bvbotbox_in_button7",
+                    "bvbotbox_in_button8"
                 ],
                 "antireqs": [],
                 "breaks": false,
@@ -242,7 +252,12 @@
                 "info": false,
                 "layer": 1,
                 "message": "",
-                "parents": [],
+                "parents": [
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button9",
+                    "bvbotbox_in_button6"
+                ],
                 "rect_off": [
                     44,
                     7,
@@ -346,8 +361,8 @@
                 "activated": true,
                 "antiparents": [],
                 "antireqs": [],
-                "breaks": false,
-                "dies": true,
+                "breaks": true,
+                "dies": false,
                 "door": {
                     "room": "",
                     "view": ""

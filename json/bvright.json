@@ -81,9 +81,11 @@
     "lawn": {
         "id": 1,
         "objects": {
+           
             "hole": {
                 "activated": false,
-                "antiparents": [],
+                "antiparents": [
+                ],
                 "antireqs": [],
                 "breaks": false,
                 "dies": false,
@@ -97,7 +99,9 @@
                 "info": false,
                 "layer": 0,
                 "message": "",
-                "parents": [],
+                "parents": [
+
+                ],
                 "rect_off": [
                     104,
                     116,
@@ -200,11 +204,11 @@
             "ladder": {
                 "activated": true,
                 "antiparents": [
+                    "bvbotbox_in_button1",
                     "bvbotbox_in_button2",
-                    "bvbotbox_in_button3",
-                    "bvbotbox_in_button4",
-                    "bvbotbox_in_button6",
-                    "bvbotbox_in_button9"
+                    "bvbotbox_in_button5",
+                    "bvbotbox_in_button7",
+                    "bvbotbox_in_button8"
                 ],
                 "antireqs": [],
                 "breaks": false,
@@ -214,17 +218,22 @@
                     "view": "up"
                 },
                 "examine": false,
-                "image_off": "empty.png",
+                "image_off": "ladder_on.png",
                 "image_on": "ladder_on.png",
                 "info": false,
                 "layer": 0,
                 "message": "",
-                "parents": [],
+                "parents": [
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button9",
+                    "bvbotbox_in_button6"
+                ],
                 "rect_off": [
-                    369,
-                    0,
+                    405,
                     1,
-                    0
+                    315,
+                    325
                 ],
                 "rect_on": [
                     405,

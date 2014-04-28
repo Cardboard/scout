@@ -6,6 +6,7 @@
     "lawn": {
         "id": 1,
         "objects": {
+            
             "door": {
                 "activated": false,
                 "antiparents": [],

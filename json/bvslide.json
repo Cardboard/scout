@@ -42,11 +42,11 @@
             "ladder": {
                 "activated": true,
                 "antiparents": [
+                    "bvbotbox_in_button1",
                     "bvbotbox_in_button2",
-                    "bvbotbox_in_button3",
-                    "bvbotbox_in_button4",
-                    "bvbotbox_in_button6",
-                    "bvbotbox_in_button9"
+                    "bvbotbox_in_button5",
+                    "bvbotbox_in_button7",
+                    "bvbotbox_in_button8"
                 ],
                 "antireqs": [],
                 "breaks": false,
@@ -56,17 +56,22 @@
                     "view": "up"
                 },
                 "examine": false,
-                "image_off": "empty.png",
+                "image_off": "ladder_on.png",
                 "image_on": "ladder_on.png",
                 "info": false,
                 "layer": 1,
                 "message": "",
-                "parents": [],
+                "parents": [
+                    "bvbotbox_in_button3",
+                    "bvbotbox_in_button4",
+                    "bvbotbox_in_button9",
+                    "bvbotbox_in_button6"
+                ],
                 "rect_off": [
-                    241,
-                    184,
-                    0,
-                    0
+                    264,
+                    9,
+                    267,
+                    325
                 ],
                 "rect_on": [
                     264,
@@ -87,6 +92,43 @@
     "forward": {
         "id": 1,
         "objects": {
+            "ball": {
+                "activated": false,
+                "antiparents": ["bvright_lawn_ball", "bvleft_right_ball", "bvladder_down_ball", "bvtop_lawn_ball"],
+                "antireqs": [],
+                "breaks": false,
+                "dies": true,
+                "door": {
+                    "room": "",
+                    "view": ""
+                },
+                "examine": false,
+                "image_off": "ball_off.png",
+                "image_on": "empty.png",
+                "info": false,
+                "layer": 1,
+                "message": "",
+                "parents": [],
+                "rect_off": [
+                    617,
+                    218,
+                    131,
+                    118
+                ],
+                "rect_on": [
+                    619,
+                    220,
+                    121,
+                    109
+                ],
+                "reqs": ["bvleft_wall_nail"],
+                "response": "",
+                "sound_off": "",
+                "sound_on": "",
+                "speed": 0,
+                "x": 595,
+                "y": 209
+            },
             "door": {
                 "activated": false,
                 "antiparents": [],
